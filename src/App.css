@@ -1,0 +1,50 @@
+body{
+  background-image: url(./Images/img1.jpeg);
+  background-size: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.9;
+  filter: grayscale(20%);
+}
+
+.App {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.Slider-div {
+  display: flex;
+  align-items: center;
+}
+
+.Slider-div 
+.fa-circle-arrow-left,
+.fa-circle-arrow-right{
+  color: rgb(29, 27, 27);
+  font-size: 50px;
+  cursor: pointer;
+  margin: 0 20px;
+  transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.Slider-div i:hover {
+  transform: scale(1.1);
+  text-shadow: 0 3px 15px rgba(0, 0, 0, 0.627);
+}
+
+
+.Add-User{
+  margin-top: 50px;
+  width: 550px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.Add-User:hover{
+  transform: scale(1.05);
+  box-shadow: 0 3px 17px rgb(38, 38, 38);
+}

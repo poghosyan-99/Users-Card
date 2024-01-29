@@ -1,0 +1,66 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+
+.AddUser {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.AddUser form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+  
+.AddUser input[type="text"], input[type="file"]{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: default;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.AddUser input[type="text"]:hover{
+    box-shadow: 0 3px 5px gray;
+}
+
+.AddUser input[type="file"]:hover{
+    box-shadow: 0 3px 5px gray;
+}
+
+
+.AddUser .add {
+    height: 50px;
+    background-color: #105387ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+  
+.AddUser .add:hover {
+    background-color: #162838;
+    transform: scale(1.05);
+}
+
+
+.fa-address-card{
+    font-size: 20px;
+    margin-right: 5px;
+}

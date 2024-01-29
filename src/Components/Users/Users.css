@@ -1,0 +1,109 @@
+.slider {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 17px rgb(0, 0, 0);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider:hover{
+    transform: scale(1.05);
+}
+
+
+.id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(19, 19, 19);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(15, 15, 15);
+    padding: 5px; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.id:hover{
+    transform: scale(1.1);
+}
+
+
+.user {
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgb(0, 0, 0);
+    font-family: 'Trebuchet MS';
+    transition: transform 0.3s, rotate 0.3s, box-shadow 0.3s;
+}
+
+
+.user:hover{
+    transform: scale(0.5);
+    transform: rotate(5deg);
+    box-shadow: 0 3px 20px rgba(86, 84, 84, 0.737);
+}
+
+.user-card {
+    width: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    opacity: 0.9;
+}
+
+.user-card img {
+    width: 100%;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    border-left: 5px dashed  #243b5dc6;
+    padding-left: 30px;
+}
+
+span {
+    color: #333333c2;
+}
+
+.fa-trash{
+    color: white;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+button.delete {
+    background-color: #f95757;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+button.delete:hover {
+    background-color: #c82f1edd;
+    transform: scale(1.05);
+}
+
